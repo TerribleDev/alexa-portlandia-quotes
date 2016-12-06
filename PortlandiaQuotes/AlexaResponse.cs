@@ -25,7 +25,7 @@ namespace PortlandiaQuotes
 
 		public override bool OnRequestValidation(SpeechletRequestValidationResult result, DateTime referenceTimeUtc, SpeechletRequestEnvelope requestEnvelope)
 		{
-			if(requestEnvelope?.Session?.Application?.Id?.Equals("amzn1.ask.skill.052afe5d-6417-4e89-b6aa-b4ee3c0bb75a") == false)
+			if(requestEnvelope?.Session?.Application?.Id?.Equals("amzn1.ask.skill.6d1ea9ba-fcf9-4ccb-b7cc-68b6ee8f8bcd") == false)
 			{
 				return false;
 			}
